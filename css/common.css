@@ -10,18 +10,30 @@ html {
 }
 body {
   font-family: "Nunito Sans", sans-serif;
+  background-color: #f6f3ff;
 }
 :root {
   --color-primary: #745bb3;
   --color-white: #fff;
   --color-secondary: #343a40;
   --color-grey: #717579;
-  --color-primary-tint: #f6f3ff;
-  --color-primary-shade: #a682ff;
+  --color-primary-tint1: #f6f3ff;
+  --color-primary-tint2: #dbcdff;
+  --color-primary-tint3: #f6f3ff;
+  --color-primary-shade1: #a682ff;
+  --color-primary-shade2: #644e99;
 }
 .btn {
-  border-radius: 100px;
+  font-weight: 600;
+  font-size: 2rem;
+  border-radius: 0.8rem;
   padding: 10px 12px;
   border: none;
   cursor: pointer;
+  background-color: var(--color-primary);
+  color: var(--color-white);
+}
+.container {
+  max-width: 120rem;
+  margin: 0 auto;
 }
