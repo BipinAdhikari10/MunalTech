@@ -1,0 +1,33 @@
+.smart-section-wrapper {
+  display: flex;
+  gap: 6.5rem;
+  padding: 4.5rem 2.4rem;
+  box-shadow: 0 1.2rem 2.4rem rgba(0, 0, 0, 0.08);
+}
+.smart-room {
+  width: 100%;
+}
+.smart-para {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 4rem;
+}
+.find-arrow {
+  margin-bottom: 4rem;
+}
+.find-arrow a {
+  /* text-decoration: underline;  */
+  text-decoration: none;
+  text-decoration-color: var(--color-primary);
+  border-bottom: 3px solid var(--color-primary);
+  font-size: 1.8rem;
+  color: var(--color-secondary);
+  font-weight: 600;
+}
+.find-arrow a:hover {
+  border-bottom: none;
+}
+
+.smart-section-image-wrapper img {
+  width: 100%;
+}

@@ -10,7 +10,6 @@ html {
 }
 body {
   font-family: "Nunito Sans", sans-serif;
-  background-color: #f6f3ff;
 }
 :root {
   --color-primary: #745bb3;
@@ -36,4 +35,27 @@ body {
 .container {
   max-width: 120rem;
   margin: 0 auto;
+}
+.sub-hero-heading {
+  color: var(--color-primary);
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 0.8rem;
+  font-weight: 800;
+}
+.sub-hero-heading-wrapper {
+  font-size: 4.4rem;
+  line-height: 1.2rem;
+  margin-bottom: 8rem;
+  font-weight: 800;
+  letter-spacing: -0.75px;
+  color: var(--color-secondary);
+}
+.smart-wrapper {
+  font-size: 2rem;
+
+  line-height: 1.8;
+
+  color: var(--color-secondary);
 }

@@ -4,6 +4,7 @@ header {
   align-items: center;
   justify-content: space-between;
   margin-bottom: 7rem;
+  /* background-color: #f6f3ff; */
 }
 .header-logo-image img {
   width: 80%;
@@ -120,4 +121,29 @@ header {
 .hero-image-wrapper img {
   /* border: 2px solid green; */
   width: 100%;
+}
+.sub-hero-heading-wrapper {
+  margin-top: 2rem;
+}
+.service-btn-container {
+  margin-top: 3rem;
+  margin-bottom: 6rem;
+}
+.service-btn {
+  font-size: 2rem;
+  font-weight: 600;
+  padding: 2.5rem 5.5rem;
+  border: none;
+  border-radius: 0;
+  background-color: var(--color-white);
+  font-family: inherit;
+  color: var(--color-secondary);
+  cursor: pointer;
+}
+.service-btn:hover {
+  background-color: #f6f3ff;
+}
+.service-btn-first {
+  border-bottom: 5px solid #a682ff;
+  background-color: #f6f3ff;
 }
