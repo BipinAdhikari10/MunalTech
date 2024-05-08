@@ -29,3 +29,18 @@
   border-radius: 1rem;
   margin-right: 3rem;
 }
+.service-section-two {
+  margin-top: 10rem;
+  display: flex;
+  align-items: center;
+  gap: 15rem;
+}
+.service-two {
+}
+.service-two-image {
+  width: 42%;
+  border-radius: 1rem;
+}
+.service-section-second {
+  /* margin-right: 10rem; */
+}
