@@ -45,7 +45,7 @@ body {
   font-weight: 800;
 }
 .sub-hero-heading-wrapper {
-  font-size: 4.4rem;
+  font-size: 5rem;
   line-height: 1.2rem;
   margin-bottom: 8rem;
   font-weight: 800;
@@ -53,9 +53,14 @@ body {
   color: var(--color-secondary);
 }
 .smart-wrapper {
-  font-size: 2rem;
-
-  line-height: 1.8;
-
+  font-size: 1.8rem;
+  font-weight: 600;
+  line-height: 1.6;
   color: var(--color-secondary);
+}
+.service-section-heading {
+  font-size: 3rem;
+  font-weight: 800;
+  line-height: 1;
+  margin-bottom: 3.2rem;
 }

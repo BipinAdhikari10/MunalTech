@@ -1,0 +1,31 @@
+.service-section {
+  margin-top: 10rem;
+  margin-bottom: 10rem;
+}
+.service-header {
+  margin-top: 2.5rem;
+}
+.service-number {
+  background-color: var(--color-primary-tint2);
+  border-radius: 50%;
+  padding: 2px 13px;
+  align-items: center;
+}
+.service-para {
+  display: flex;
+  flex-direction: column;
+}
+.service-section-one {
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+  /* border: 2px solid red; */
+  /* margin-right: 4rem; */
+
+  margin-top: 10rem;
+}
+.service-image {
+  width: 42%;
+  border-radius: 1rem;
+  margin-right: 3rem;
+}
