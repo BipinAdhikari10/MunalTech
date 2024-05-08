@@ -1,0 +1,30 @@
+.features-section {
+  margin-bottom: 10rem;
+}
+.features-heading {
+  margin-top: 3rem;
+  margin-bottom: 10rem;
+}
+.feature-list {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+.features-icon {
+  font-size: 3rem;
+  color: var(--color-primary);
+}
+.features-text-para {
+  margin-top: 2rem;
+  margin-left: 5rem;
+}
+.features-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.features-second-wrappers {
+  margin-top: 10rem;
+  display: flex;
+  justify-content: space-between;
+  gap: 12rem;
+}
