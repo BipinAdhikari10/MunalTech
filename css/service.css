@@ -35,12 +35,30 @@
   align-items: center;
   gap: 15rem;
 }
-.service-two {
-}
+
 .service-two-image {
   width: 42%;
   border-radius: 1rem;
 }
-.service-section-second {
-  /* margin-right: 10rem; */
+.third-section {
+  margin-top: 10rem;
+  display: flex;
+  align-items: center;
+  gap: 10rem;
+}
+.third-step-image img {
+  width: 100%;
+  border-radius: 1rem;
+}
+.fourth-section {
+  margin-top: 10rem;
+}
+.fourth-section-first {
+  display: flex;
+  align-items: center;
+  gap: 12rem;
+}
+.service-fourth-image {
+  width: 44%;
+  border-radius: 1rem;
 }
