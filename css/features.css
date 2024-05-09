@@ -12,6 +12,7 @@
 }
 .features-icon {
   font-size: 3rem;
+  margin-top: 0.8rem;
   color: var(--color-primary);
 }
 .features-text-para {
@@ -26,5 +27,5 @@
   margin-top: 10rem;
   display: flex;
   justify-content: space-between;
-  gap: 12rem;
+  gap: 17rem;
 }
