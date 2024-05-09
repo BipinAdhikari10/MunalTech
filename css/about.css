@@ -1,0 +1,55 @@
+.about-section {
+  margin-top: 10rem;
+
+  margin-bottom: 10rem;
+}
+.about-heading1 {
+  text-align: center;
+}
+.about-heading2 {
+  text-align: center;
+  margin-top: 3rem;
+}
+.testomonial-button-container {
+  margin-top: 8rem;
+  margin-bottom: 10rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2.8rem;
+}
+.testomonial-content {
+  box-shadow: 0rem 1rem 2rem rgba(0, 0, 0, 0.08);
+  display: flex;
+  align-items: center;
+  gap: 5rem;
+  padding: 6rem 2rem;
+}
+.testomonial-button {
+  width: 0.5rem;
+  height: 4rem;
+  border: none;
+  border-radius: 1rem;
+  cursor: pointer;
+  background-color: #f1f1f1;
+  transition: all 0.35s;
+}
+.testomonial-button-container :first-child {
+  background-color: var(--color-primary-shade1);
+}
+.testomonial-button:hover {
+  background-color: var(--color-primary-shade1);
+}
+
+.testomonial-paragraph {
+  font-size: 3.25rem;
+  font-weight: 600;
+  line-height: 1.5;
+}
+.testomonial-who {
+  font-size: 2rem;
+  font-size: 600;
+  margin-top: 3rem;
+}
+.testomonial-last-image {
+  width: 34%;
+}

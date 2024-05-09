@@ -31,14 +31,14 @@
 }
 .adivice-section {
   margin-top: 10rem;
-  margin-bottom: 10rem;
+  margin-bottom: 15rem;
 }
 .costumer-advice-section {
   display: flex;
   align-items: center;
   justify-content: space-between;
   background-color: var(--color-primary);
-  border-radius: 1rem;
+  border-radius: 1.5rem;
   padding: 6rem;
 }
 .number-section {

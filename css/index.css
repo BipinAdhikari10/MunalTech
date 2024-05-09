@@ -152,3 +152,19 @@ header {
   border-bottom: 5px solid #a682ff;
   background-color: #f6f3ff;
 }
+.highlight {
+  /* border: 2px solid red; */
+  position: relative;
+}
+.highlight::before {
+  content: "";
+  position: absolute;
+  width: 40%;
+  /* color: var(--color-primary); */
+  height: 10%;
+  background-color: var(--color-primary-tint2);
+  top: 0%;
+  left: 3%;
+  border-radius: 1rem;
+  /* bottom: 50%; */
+}
